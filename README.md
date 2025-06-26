@@ -63,7 +63,6 @@ The React Email dev server (`email dev`) fails to resolve TypeScript modules whe
 
 4. **Run the dev server**:
    ```bash
-   cd packages/emails
    pnpm dev
    # or: pnpm dev:4.0.16
    # or: pnpm dev:4.0.17
