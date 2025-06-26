@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:pyimagescan}",
+      "name": "Debug ScanDocumentsMac",
+      "program": "${workspaceFolder:pyimagescan}/.build/debug/ScanDocumentsMac",
+      "preLaunchTask": "swift: Build Debug ScanDocumentsMac"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:pyimagescan}",
+      "name": "Release ScanDocumentsMac",
+      "program": "${workspaceFolder:pyimagescan}/.build/release/ScanDocumentsMac",
+      "preLaunchTask": "swift: Build Release ScanDocumentsMac"
+    }
+  ]
+}

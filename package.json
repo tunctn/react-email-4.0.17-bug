@@ -1,0 +1,44 @@
+{
+  "name": "nextshell",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "dotenv -- turbo dev --no-daemon --parallel",
+    "dev:4.0.16": "dotenv -- turbo dev --no-daemon --parallel --filter=@packages/emails-4.0.16",
+    "dev:4.0.17": "dotenv -- turbo dev --no-daemon --parallel --filter=@packages/emails-4.0.17"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.0.5",
+    "@total-typescript/ts-reset": "^0.6.1",
+    "@types/node": "^24.0.4",
+    "dotenv-cli": "^8.0.0",
+    "turbo": "^2.5.4",
+    "typescript": "^5.8.3"
+  },
+  "packageManager": "pnpm@10.12.4",
+  "engines": {
+    "node": ">22.11.0"
+  },
+  "pnpm": {
+    "supportedArchitectures": {
+      "os": [
+        "current"
+      ],
+      "cpu": [
+        "x64",
+        "arm64"
+      ]
+    },
+    "onlyBuiltDependencies": [
+      "@biomejs/biome",
+      "@tailwindcss/oxide",
+      "core-js",
+      "esbuild",
+      "sharp"
+    ]
+  },
+  "dependencies": {
+    "server-only": "^0.0.1"
+  }
+}

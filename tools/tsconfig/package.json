@@ -1,0 +1,14 @@
+{
+  "name": "@tools/tsconfig",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@tsconfig/next": "^2.0.3",
+    "@tsconfig/node22": "^22.0.2",
+    "@tsconfig/recommended": "^1.0.10"
+  }
+}

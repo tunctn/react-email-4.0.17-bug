@@ -1,0 +1,11 @@
+{
+  "extends": "@tools/tsconfig/nextjs.json",
+  "exclude": ["node_modules", "dist"],
+  "compilerOptions": {
+    "paths": {
+      "@packages/*": ["../*"]
+    },
+    "outDir": "./dist"
+  },
+  "include": ["src/**/*", "index.ts"]
+}
